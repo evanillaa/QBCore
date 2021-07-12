@@ -1,6 +1,9 @@
 # QBCore
 
-[![Creative Commons Attribution/NonCommercial/ShareAlike](https://img.shields.io/badge/License-CC--BY--NC--SA-%23000000?Style=for-the-badge&logo=creativecommons)](http://creativecommons.org/licenses/by-nc-sa/3.0/)
+[![Creative Commons Attribution/NonCommercial/ShareAlike](https://img.shields.io/badge/License-CC--BY--NC--SA-lightgrey?style=for-the-badge&logo=creativecommons)](http://creativecommons.org/licenses/by-nc-sa/3.0/)
+[![Donate on PayPal](https://img.shields.io/badge/Donate-PayPal-%2300457C?style=for-the-badge&logo=paypal)](https://paypal.me/zfbx)
+[![Sub on Patreon](https://img.shields.io/badge/Support-Patreon-%23FF424D?style=for-the-badge&logo=patreon)](https://www.patreon.com/zfbx)
+
 a fork of QBCore from 2021-7-11
 
 # Credits
