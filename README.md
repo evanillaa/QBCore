@@ -4,9 +4,16 @@ a fork of QBCore from 2021-7-11
 
 
 
+# Credits
+
+*Since moving to a single repo a lot of Contributors names are no longer tied to the project and I think that's unfair to the work they've put in so here are all the github names that have contributed to code in this project alphabetically*
+
+adamsimondev, andristum, AvarianKnight, Aveeux, **BerkieBb**, Chxttr, dappar, darkets, dennrick, Developer-Bear, DmACKGL, emresudo, GHMatti, GhostFaceRP, **GhzGarage**, gutsoo, hawy-dev, ianvalls90, ihyajb, ImpulseFPS, InZidiuZ, ItsYeeBoi, izMystic, Jagen0, Jakats, **JericoFX**, **KASH4**, keenowastaken, Kmack710, LordLucifr, macky4546, Manliketjb, meistroburger, MiddleSkillz, Midnight121, Mikasan15, mirrox1337, MisterBuzzee, N3mEee, Nick78111, NiftyLife, nxxnly, nxxnly, pushkart2, **S0me1**, Sakarias411, sven20202020, ThymonA, uShifty, usmanwarraich007, Virus18sp, viruspc2002, Yarpii, zfbx
+
 
 # License
-As the previous license doesn't allow me to change the license, this derivative must follow the same.
+
+*As the previous license doesn't allow me to change the license, this derivative must follow the same.*
 
 <h3 style="text-align: left" resource="http://creativecommons.org/ns#Reproduction" rel="cc:permits">The Following Terms Apply:</h3>
 <ul class="license-properties">
