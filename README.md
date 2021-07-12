@@ -1,4 +1,6 @@
 # QBCore
+
+[![Creative Commons Attribution/NonCommercial/ShareAlike](https://img.shields.io/badge/License-CC--BY--NC--SA-%23000000.svg)](http://creativecommons.org/licenses/by-nc-sa/3.0/)
 a fork of QBCore from 2021-7-11
 
 
