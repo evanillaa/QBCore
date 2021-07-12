@@ -1,8 +1,11 @@
 #FiveM
 cache
 
+#External Resources
+\[standalonex\]/
+\[fivem\]/
+
 # Node
-logs
 *.log
 pids
 *.pid
@@ -19,4 +22,3 @@ jspm_packages/
 .env
 .env.test
 .cache
-dist
