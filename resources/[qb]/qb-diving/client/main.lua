@@ -72,7 +72,7 @@ AddEventHandler('qb-diving:client:UseJerrycan', function()
             disableMouse = false,
             disableCombat = true,
         }, {}, {}, {}, function() -- Done
-            exports['LegacyFuel']:SetFuel(curVeh, 100)
+            exports['legacyfuel']:SetFuel(curVeh, 100)
             QBCore.Functions.Notify('The boat has been refueled', 'success')
             TriggerServerEvent('qb-diving:server:RemoveItem', 'jerry_can', 1)
             TriggerEvent('inventory:client:ItemBox', QBCore.Shared.Items['jerry_can'], "remove")

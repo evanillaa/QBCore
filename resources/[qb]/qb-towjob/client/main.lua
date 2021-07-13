@@ -230,7 +230,7 @@ Citizen.CreateThread(function()
                     if #(pos - vector3(CurrentLocation.x, CurrentLocation.y, CurrentLocation.z)) < 50.0 and not VehicleSpawned then
                         VehicleSpawned = true
                         QBCore.Functions.SpawnVehicle(CurrentLocation.model, function(veh)
-                            exports['LegacyFuel']:SetFuel(veh, 0.0)
+                            exports['legacyfuel']:SetFuel(veh, 0.0)
                             if math.random(1,2) == 1 then
                                 doCarDamage(veh)
                             end
@@ -323,7 +323,7 @@ AddEventHandler('qb-tow:client:SpawnVehicle', function()
     QBCore.Functions.SpawnVehicle(vehicleInfo, function(veh)
         SetVehicleNumberPlateText(veh, "TOWR"..tostring(math.random(1000, 9999)))
         SetEntityHeading(veh, coords.w)
-        exports['LegacyFuel']:SetFuel(veh, 100.0)
+        exports['legacyfuel']:SetFuel(veh, 100.0)
         SetEntityAsMissionEntity(veh, true, true)
         closeMenuFull()
         TaskWarpPedIntoVehicle(PlayerPedId(), veh, -1)

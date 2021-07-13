@@ -30,7 +30,7 @@ Citizen.CreateThread(function()
             local pos = GetEntityCoords(PlayerPedId())
             local time = CalculateTimeToDisplay()
             local street1, street2 = GetStreetNameAtCoord(pos.x, pos.y, pos.z, Citizen.ResultAsInteger(), Citizen.ResultAsInteger())
-            local fuel = exports['LegacyFuel']:GetFuel(GetVehiclePedIsIn(PlayerPedId()))
+            local fuel = exports['legacyfuel']:GetFuel(GetVehiclePedIsIn(PlayerPedId()))
             SendNUIMessage({
                 action = "hudtick",
                 show = IsPauseMenuActive(),

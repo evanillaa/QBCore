@@ -596,7 +596,7 @@ function CreateMethVehicle()
 		SetVehicleHasBeenOwnedByPlayer(methVehicle,true)
 		SetVehicleNeedsToBeHotwired(methVehicle, false)
 		SetVehRadioStation(methVehicle, "OFF")
-		exports['LegacyFuel']:SetFuel(methVehicle, 100)
+		exports['legacyfuel']:SetFuel(methVehicle, 100)
 		TriggerEvent("vehiclekeys:client:SetOwner", GetVehicleNumberPlateText(methVehicle))
 
     while true do

@@ -255,7 +255,7 @@ function SpawnListVehicle(model)
     QBCore.Functions.SpawnVehicle(model, function(veh)
         SetVehicleNumberPlateText(veh, "ACBV"..tostring(math.random(1000, 9999)))
         SetEntityHeading(veh, coords.w)
-        exports['LegacyFuel']:SetFuel(veh, 100.0)
+        exports['legacyfuel']:SetFuel(veh, 100.0)
         Menu.hidden = true
         TaskWarpPedIntoVehicle(PlayerPedId(), veh, -1)
         TriggerEvent("vehiclekeys:client:SetOwner", GetVehicleNumberPlateText(veh))
@@ -823,17 +823,17 @@ function ApplyEffects(vehicle)
             end
 
             if VehicleStatus[plate]["fuel"] <= 80 and (chance >= 81 and chance <= 100) then
-                local fuel = exports['LegacyFuel']:GetFuel(vehicle)
+                local fuel = exports['legacyfuel']:GetFuel(vehicle)
                 if VehicleStatus[plate]["fuel"] <= 80 and VehicleStatus[plate]["fuel"] >= 60 then
-                    exports['LegacyFuel']:SetFuel(vehicle, fuel - 2.0)
+                    exports['legacyfuel']:SetFuel(vehicle, fuel - 2.0)
                 elseif VehicleStatus[plate]["fuel"] <= 59 and VehicleStatus[plate]["fuel"] >= 40 then
-                    exports['LegacyFuel']:SetFuel(vehicle, fuel - 4.0)
+                    exports['legacyfuel']:SetFuel(vehicle, fuel - 4.0)
                 elseif VehicleStatus[plate]["fuel"] <= 39 and VehicleStatus[plate]["fuel"] >= 20 then
-                    exports['LegacyFuel']:SetFuel(vehicle, fuel - 6.0)
+                    exports['legacyfuel']:SetFuel(vehicle, fuel - 6.0)
                 elseif VehicleStatus[plate]["fuel"] <= 19 and VehicleStatus[plate]["fuel"] >= 6 then
-                    exports['LegacyFuel']:SetFuel(vehicle, fuel - 8.0)
+                    exports['legacyfuel']:SetFuel(vehicle, fuel - 8.0)
                 else
-                    exports['LegacyFuel']:SetFuel(vehicle, fuel - 10.0)
+                    exports['legacyfuel']:SetFuel(vehicle, fuel - 10.0)
                 end
             end
         end
